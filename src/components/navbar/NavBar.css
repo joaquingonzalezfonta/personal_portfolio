@@ -6,8 +6,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 10%;
-  background-color: #ffffff;
-  border-bottom: 1px solid #e5e5e5;
 }
 
 .menu-button {
@@ -25,9 +23,15 @@
   list-style: none;
 }
 
-.links-navbar {
+.links-navbar, a {
   text-decoration: none;
+  color: white;
+  transition: 0.3s;
 }
+
+a:hover {
+    color: #E8753D;
+  }
 
 @media (max-width: 768px) {
   .navbar {

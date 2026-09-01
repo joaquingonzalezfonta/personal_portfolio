@@ -1,28 +1,36 @@
 import './Hero.css'
+import { motion } from 'framer-motion';
 
 function Hero() {
   return (
     <>
+    <motion.div
+      initial={{ opacity: 0, x: -60 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 1.2 }}
+      viewport={{ once: false }}
+    >
       <section id="inicio" className="hero">
         <div className="hero-content">
           <p className="hero-intro">Hola, soy</p>
 
-          <h1>Joaquín González</h1>
+          <h1>Joaquín Gonzalez</h1>
 
           <h2>Desarrollador Web</h2>
 
           <p className="hero-description">
-            Creo aplicaciones web modernas, funcionales y responsive utilizando
-            tecnologías como React, JavaScript, Python y SQL.
+            Transformo ideas en soluciones digitales modernas y funcionales.
+            Creo experiencias web pensadas para crecer junto a cada proyecto.
           </p>
 
           <div className="hero-buttons">
-            <a href="#projects">Ver mis proyectos</a>
+            <a className='contact-link' href="#projects">Ver mis proyectos</a>
 
-            <a href="#contact">Contactarme</a>
+            <a className='contact-link' href="#contact">Contactarme</a>
           </div>
         </div>
       </section>
+      </motion.div>
     </>
   );
 }

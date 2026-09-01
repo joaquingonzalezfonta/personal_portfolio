@@ -1,10 +1,12 @@
 .hero {
-  min-height: calc(100vh - 80px);
+  min-height: calc(105vh - 80px);
 
   display: flex;
   align-items: center;
 
   padding: 80px 10%;
+
+  color: white;
 }
 
 .hero-content {
@@ -20,6 +22,7 @@
   font-size: clamp(3rem, 8vw, 6rem);
   line-height: 1;
   margin-bottom: 20px;
+  color: #E8753D;
 }
 
 .hero h2 {
@@ -29,7 +32,7 @@
 
 .hero-description {
   max-width: 650px;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   line-height: 1.7;
   margin-bottom: 35px;
 }
@@ -41,14 +44,16 @@
 
 .hero-buttons a {
   padding: 14px 25px;
-  border: 1px solid #1a1a1a;
   text-decoration: none;
-  color: #1a1a1a;
+  color: #fff;
+  transition: 0.5s;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
 }
 
 .hero-buttons a:hover {
-  background-color: #1a1a1a;
-  color: #ffffff;
+  color: #E8753D;
 }
 
 @media (max-width: 768px) {

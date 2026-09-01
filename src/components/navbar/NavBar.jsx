@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <a href="#inicio" className="navbar-logo">
+        <a href="#inicio" className="links-navbar">
           JG
         </a>
 
