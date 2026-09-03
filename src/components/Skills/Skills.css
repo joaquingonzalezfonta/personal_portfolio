@@ -1,5 +1,6 @@
 .skills {
   padding: 80px 10%;
+  background-color: black;
 }
 
 .skills h2 {
@@ -15,7 +16,7 @@
 
 .project-card {
   padding: 30px;
-  border: 1px solid #ddd;
+  border: 1px solid #E0C69A;
   border-radius: 12px;
 }
 

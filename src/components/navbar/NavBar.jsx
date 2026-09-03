@@ -8,8 +8,8 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <a href="#inicio" className="links-navbar">
-          JG
+        <a href="#inicio" className="link-logo">
+          <img className="logo-img" src="/img/logo.png" alt="logo" />
         </a>
 
         <button className="menu-button" onClick={() => setMenuHamburguesa(!menuHamburguesa)}>

@@ -1,11 +1,18 @@
 .hero {
-  min-height: calc(105vh - 80px);
-
+  min-height: calc(100vh - 80px);
   display: flex;
   align-items: center;
-
   padding: 80px 10%;
-
+  background-image:
+    linear-gradient(
+      to bottom,
+      transparent 65%,
+      #000000 100%
+    ),
+    url("/img/logo1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   color: white;
 }
 
@@ -22,7 +29,7 @@
   font-size: clamp(3rem, 8vw, 6rem);
   line-height: 1;
   margin-bottom: 20px;
-  color: #E8753D;
+  color: #E0C69A;
 }
 
 .hero h2 {
@@ -42,18 +49,22 @@
   gap: 20px;
 }
 
+.hero-link:hover {
+  transform: translateY(-3px);
+}
+
 .hero-buttons a {
   padding: 14px 25px;
   text-decoration: none;
-  color: #fff;
+  color: #faf8f8;
   transition: 0.5s;
   padding: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border: 1px solid #E0C69A;
   border-radius: 16px;
 }
 
 .hero-buttons a:hover {
-  color: #E8753D;
+  color: #E0C69A;
 }
 
 @media (max-width: 768px) {

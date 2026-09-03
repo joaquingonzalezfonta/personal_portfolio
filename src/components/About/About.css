@@ -1,5 +1,6 @@
 .about {
   padding: 80px 10%;
+  background-image: url('/img/about.png');
 }
 
 .about h2 {

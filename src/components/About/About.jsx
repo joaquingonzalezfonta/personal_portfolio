@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 function About() {
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0, x: -60 }}
-        whileInView={{ opacity: 1, x: 0 }}
-        transition={{ duration: 1.2 }}
-        viewport={{ once: false }}
-      >
-        <section id="about" className="about">
+      <section id="about" className="about">
+        <motion.div
+          initial={{ opacity: 0, x: -60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: false }}
+        >
           <article className="article-about">
             <h2>Sobre mí</h2>
 
@@ -28,17 +28,24 @@ function About() {
               completas.
             </p>
           </article>
+        </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, x: 60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: false }}
+        >
           <article>
             <h2> Mi formación </h2>
 
             <p>
               UX/UI Design → Desarrollo Web → Full Stack Engineer → JavaScript
-              Avanzado → React Avanzado → SQL
+              Avanzado → React Avanzado → Python → SQL
             </p>
           </article>
-        </section>
-      </motion.div>
+        </motion.div>
+      </section>
     </>
   );
 }

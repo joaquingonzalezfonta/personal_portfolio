@@ -3,17 +3,16 @@ import { motion } from "framer-motion";
 
 function Contact() {
   return (
-    <motion.div
-      initial={{ opacity: 0, x: -60 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1.2 }}
-      viewport={{ once: false }}
-    >
-      <section id="contact" className="contact-section">
-        <div className="contact-container">
+    <section id="contact" className="contact">
+      <div className="contact-container">
+        <motion.div
+          initial={{ opacity: 0, x: -60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: false }}
+        >
           <div className="contact-content">
             <h2> Contacto</h2>
-
             <p className="contact-description">
               Si querés desarrollar un sitio web, e-commerce o una solución
               digital para tu proyecto, hablemos.
@@ -23,7 +22,14 @@ function Contact() {
               Contactarme <span>→</span>
             </a>
           </div>
+        </motion.div>
 
+        <motion.div
+          initial={{ opacity: 0, x: 60 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1.2 }}
+          viewport={{ once: false }}
+        >
           <div className="contact-links">
             <a href="mailto:tuemail@gmail.com" className="contact-link">
               <div className="contact-icon">✉</div>
@@ -62,9 +68,9 @@ function Contact() {
               <span>↗</span>
             </a>
           </div>
-        </div>
-      </section>
-    </motion.div>
+        </motion.div>
+      </div>
+    </section>
   );
 }
 

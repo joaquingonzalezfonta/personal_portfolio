@@ -1,5 +1,6 @@
 .projects {
   padding: 80px 10%;
+  background-color: black;
 }
 
 .projects h2 {
@@ -23,6 +24,11 @@
   font-size: 1.5rem;
   margin-bottom: 15px;
 }
+
+.projects-links:hover {
+  transform: translateY(-3px);
+}
+
 
 .project-card p {
   line-height: 1.6;

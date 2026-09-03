@@ -1,36 +1,54 @@
-import './Hero.css'
-import { motion } from 'framer-motion';
+import "./Hero.css";
+import { motion } from "framer-motion";
 
 function Hero() {
   return (
     <>
-    <motion.div
-      initial={{ opacity: 0, x: -60 }}
-      whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1.2 }}
-      viewport={{ once: false }}
-    >
       <section id="inicio" className="hero">
         <div className="hero-content">
-          <p className="hero-intro">Hola, soy</p>
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.2 }}
+            viewport={{ once: false }}
+          >
+            <p className="hero-intro">Hola, soy</p>
 
-          <h1>Joaquín Gonzalez</h1>
+            <h1>Joaquín Gonzalez</h1>
+          </motion.div>
 
-          <h2>Desarrollador Web</h2>
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.2 }}
+            viewport={{ once: false }}
+          >
+            <h2>Desarrollador Web</h2>
 
-          <p className="hero-description">
-            Transformo ideas en soluciones digitales modernas y funcionales.
-            Creo experiencias web pensadas para crecer junto a cada proyecto.
-          </p>
+            <p className="hero-description">
+              Transformo ideas en soluciones digitales modernas y funcionales.
+              Creo experiencias web pensadas para crecer junto a cada proyecto.
+            </p>
+          </motion.div>
 
-          <div className="hero-buttons">
-            <a className='contact-link' href="#projects">Ver mis proyectos</a>
+          <motion.div
+            initial={{ opacity: 0, x: -60 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.2 }}
+            viewport={{ once: false }}
+          >
+            <div className="hero-buttons">
+              <a className="hero-link" href="#projects">
+                Mis proyectos
+              </a>
 
-            <a className='contact-link' href="#contact">Contactarme</a>
-          </div>
+              <a className="hero-link" href="#contact">
+                Contactarme
+              </a>
+            </div>
+          </motion.div>
         </div>
       </section>
-      </motion.div>
     </>
   );
 }
