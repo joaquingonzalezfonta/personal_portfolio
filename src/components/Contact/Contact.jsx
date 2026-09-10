@@ -1,5 +1,9 @@
 import "./Contact.css";
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
 
 function Contact() {
   return (
@@ -18,8 +22,13 @@ function Contact() {
               digital para tu proyecto, hablemos.
             </p>
 
-            <a href="mailto:tuemail@gmail.com" className="contact-button">
-              Contactarme <span>→</span>
+            <a
+  href="https://wa.me/5491123970234?text=Hola%20Joaquin,%20vi%20tu%20portfolio%20y%20me%20gustaría%20consultarte%20por%20un%20proyecto."
+  target="_blank"
+  rel="noopener noreferrer"
+  className="contact-button"
+>
+             < FaWhatsapp /> Contactarme
             </a>
           </div>
         </motion.div>
@@ -31,22 +40,22 @@ function Contact() {
           viewport={{ once: false }}
         >
           <div className="contact-links">
-            <a href="mailto:tuemail@gmail.com" className="contact-link">
-              <div className="contact-icon">✉</div>
+            <a href="mailto:fontqode@gmail.com" className="contact-link">
+              <div className="contact-icon"> < MdEmail /></div>
               <div>
                 <small>Email</small>
-                <p>tuemail@gmail.com</p>
+                <p>fontqode@gmail.com</p>
               </div>
               <span>↗</span>
             </a>
 
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/joaquin-gonzalez-b40910243/"
               target="_blank"
               rel="noreferrer"
               className="contact-link"
             >
-              <div className="contact-icon">in</div>
+              <div className="contact-icon"> < FaLinkedin /> </div>
               <div>
                 <small>LinkedIn</small>
                 <p>Mi perfil profesional</p>
@@ -55,12 +64,12 @@ function Contact() {
             </a>
 
             <a
-              href="https://github.com/"
+              href="https://github.com/joaquingonzalezfonta"
               target="_blank"
               rel="noreferrer"
               className="contact-link"
             >
-              <div className="contact-icon">⌘</div>
+              <div className="contact-icon"> < FaGithub /> </div>
               <div>
                 <small>GitHub</small>
                 <p>Mis proyectos</p>

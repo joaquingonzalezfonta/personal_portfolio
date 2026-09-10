@@ -1,6 +1,12 @@
 .about {
   padding: 80px 10%;
-  background-image: url('/img/about.png');
+  background-image: 
+    linear-gradient(
+      to bottom,
+      transparent 65%,
+      #000000 100%
+    ),
+  url('/img/about.png');
 }
 
 .about h2 {

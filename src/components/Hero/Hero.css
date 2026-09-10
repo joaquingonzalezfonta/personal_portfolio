@@ -54,13 +54,17 @@
 }
 
 .hero-buttons a {
-  padding: 14px 25px;
-  text-decoration: none;
-  color: #faf8f8;
-  transition: 0.5s;
+  display: inline-flex;
+  align-items: center;
+  gap: 15px;
   padding: 20px;
   border: 1px solid #E0C69A;
   border-radius: 16px;
+  background: #111;
+  color: #fefdfd;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
 }
 
 .hero-buttons a:hover {

@@ -1,5 +1,7 @@
 import "./Hero.css";
 import { motion } from "framer-motion";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 function Hero() {
   return (
@@ -26,8 +28,8 @@ function Hero() {
             <h2>Desarrollador Web</h2>
 
             <p className="hero-description">
-              Transformo ideas en soluciones digitales modernas y funcionales.
-              Creo experiencias web pensadas para crecer junto a cada proyecto.
+              Impulso tu negocio con soluciones digitales modernas y funcionales.
+              Desarrollo herramientas adaptadas a tus necesidades y objetivos.
             </p>
           </motion.div>
 
@@ -43,7 +45,7 @@ function Hero() {
               </a>
 
               <a className="hero-link" href="#contact">
-                Contactarme
+                < FaWhatsapp /> Contactarme
               </a>
             </div>
           </motion.div>
