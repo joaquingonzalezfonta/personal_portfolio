@@ -46,7 +46,8 @@
 
 .hero-buttons {
   display: flex;
-  gap: 20px;
+  gap: 15px;
+  flex-wrap: wrap;
 }
 
 .hero-link:hover {
@@ -56,14 +57,22 @@
 .hero-buttons a {
   display: inline-flex;
   align-items: center;
-  gap: 15px;
+  justify-content: center;
+
+  width: 174px;
   padding: 20px;
+
+  gap: 15px;
+
   border: 1px solid #E0C69A;
   border-radius: 16px;
+
   background: #111;
   color: #fefdfd;
+
   text-decoration: none;
   font-weight: 600;
+
   transition: 0.3s ease;
 }
 

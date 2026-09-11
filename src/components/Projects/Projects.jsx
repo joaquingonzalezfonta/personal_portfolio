@@ -33,7 +33,7 @@ function Projects() {
               </div>
 
               <div className="project-content">
-                <h3>JGF Muebles</h3>
+                <h3> Muebles</h3>
 
                 <p>
                   Ecommerce desarrollado con React y Firebase. Incluye catálogo
@@ -97,10 +97,7 @@ function Projects() {
                   </a>
 
                   <a href="https://github.com/joaquingonzalezfonta/frontend" className="projects-links">
-                    Frontend
-                  </a>
-                  <a href="https://github.com/joaquingonzalezfonta/backend" className="projects-links">
-                    Backend
+                    GitHub
                   </a>
                 </div>
               </div>

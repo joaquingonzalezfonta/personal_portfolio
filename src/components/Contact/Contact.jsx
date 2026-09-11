@@ -46,7 +46,6 @@ function Contact() {
                 <small>Email</small>
                 <p>fontqode@gmail.com</p>
               </div>
-              <span>↗</span>
             </a>
 
             <a
@@ -60,7 +59,6 @@ function Contact() {
                 <small>LinkedIn</small>
                 <p>Mi perfil profesional</p>
               </div>
-              <span>↗</span>
             </a>
 
             <a
@@ -74,7 +72,6 @@ function Contact() {
                 <small>GitHub</small>
                 <p>Mis proyectos</p>
               </div>
-              <span>↗</span>
             </a>
           </div>
         </motion.div>
