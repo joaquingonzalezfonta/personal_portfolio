@@ -26,8 +26,8 @@ function Projects() {
             <article className="project-card">
               <div className="project-image-container">
                 <img
-                  src="/img/proyecto-muebles.png"
-                  alt="Proyecto JGF Muebles"
+                  src="/img/proyecto-homebook.png"
+                  alt="Proyecto Muebles"
                   className="project-image"
                 />
               </div>
@@ -51,7 +51,7 @@ function Projects() {
                     rel="noopener noreferrer"
                     className="projects-links"
                   >
-                    Ver proyecto
+                    Proyecto
                   </a>
 
                   <a
@@ -70,7 +70,7 @@ function Projects() {
               <div className="project-image-container">
                 <img
                   src="/img/proyecto-importcar.png"
-                  alt="Proyecto JGF Muebles"
+                  alt="Proyecto Importcar"
                   className="project-image"
                 />
               </div>
@@ -79,9 +79,9 @@ function Projects() {
                 <h3> Importcar</h3>
 
                 <p>
-                  Ecommerce full stack, incluye catálogo de productos,
+                  Ecommerce full stack enfocado en el backend, incluye catálogo de productos,
                   autenticación, y panel de administración para productos y usuarios. 
-                  Se enfoca mas en la logica del backend
+                  
                 </p>
 
                 <p className="project-tech"> Java Script · React · MongoDB </p>
@@ -93,7 +93,7 @@ function Projects() {
                     rel="noopener noreferrer"
                     className="projects-links"
                   >
-                    Ver proyecto
+                    Proyecto
                   </a>
 
                   <a href="https://github.com/joaquingonzalezfonta/frontend" className="projects-links">
@@ -107,7 +107,7 @@ function Projects() {
               <div className="project-image-container">
                 <img
                   src="/img/retailproject.png"
-                  alt="Proyecto JGF Muebles"
+                  alt="Proyecto Retail Project"
                   className="project-image"
                 />
               </div>

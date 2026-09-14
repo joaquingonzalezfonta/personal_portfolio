@@ -28,7 +28,7 @@ function Contact() {
   rel="noopener noreferrer"
   className="contact-button"
 >
-             < FaWhatsapp /> Contactarme
+             < FaWhatsapp /> WhatsApp
             </a>
           </div>
         </motion.div>

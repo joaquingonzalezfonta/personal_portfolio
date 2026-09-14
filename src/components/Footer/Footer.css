@@ -5,6 +5,12 @@
   background-color: black;
 }
 
-.footer p {
+.footer span {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+  .footer span {
+     font-size: 10px;
+  }
 }

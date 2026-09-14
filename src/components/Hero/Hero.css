@@ -39,7 +39,6 @@
 
 .hero-description {
   max-width: 650px;
-  font-size: 1.3rem;
   line-height: 1.7;
   margin-bottom: 35px;
 }
@@ -94,7 +93,17 @@
   }
 
   .hero-buttons {
-    flex-direction: column;
+    display: flex;
     align-items: flex-start;
   }
+
+  .wpp-icon {
+    display: none;
+  }
+
+  .hero-buttons a {
+    width:100px;
+    display: flex;
+    justify-content: center;
+  } 
 }

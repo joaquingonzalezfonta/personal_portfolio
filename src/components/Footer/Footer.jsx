@@ -3,7 +3,7 @@ import './Footer.css'
 function Footer() {
   return (
     <footer className="footer">
-      <p>© 2026 Joaquín González. Todos los derechos reservados.</p>
+      <span>© 2026 Joaquín González. Todos los derechos reservados.</span>
     </footer>
   )
 }

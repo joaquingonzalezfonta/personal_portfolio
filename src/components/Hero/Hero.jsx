@@ -41,11 +41,11 @@ function Hero() {
           >
             <div className="hero-buttons">
               <a className="hero-link" href="#projects">
-                Mis proyectos
+                Proyectos
               </a>
 
               <a className="hero-link" target="_blank" rel="noopener noreferrer" href="https://wa.me/5491123970234?text=Hola%20Joaquin,%20vi%20tu%20portfolio%20y%20me%20gustaría%20consultarte%20por%20un%20proyecto.">
-                < FaWhatsapp /> Contactarme
+                < FaWhatsapp className="wpp-icon" /> WhatsApp
               </a>
             </div>
           </motion.div>
