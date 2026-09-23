@@ -16,7 +16,8 @@ function Hero() {
           >
             <p className="hero-intro">Hola, soy</p>
 
-            <h1>Joaquín Gonzalez</h1>
+            <h1>Joaquín</h1>
+            <h1>Gonzalez</h1>
           </motion.div>
 
           <motion.div
