@@ -28,7 +28,7 @@
 .hero h1 {
   font-size: clamp(3rem, 8vw, 6rem);
   line-height: 1;
-  color: #E0C69A;
+  color: #c6b4a0;
 }
 
 .hero h2 {
@@ -62,10 +62,10 @@
 
   gap: 15px;
 
-  border: 1px solid #E0C69A;
+  border: 1px solid #c6b4a0;
   border-radius: 16px;
 
-  background: #0D0D0D;
+  background: black;
   color: #fefdfd;
 
   text-decoration: none;
@@ -75,7 +75,7 @@
 }
 
 .hero-buttons a:hover {
-  color: #E0C69A;
+  color: #c6b4a0;
 }
 
 @media (max-width: 768px) {
