@@ -12,7 +12,7 @@ function About() {
           viewport={{ once: false }}
         >
           <article className="article-about">
-            <h2>Sobre mí</h2>
+            <h2>About me</h2>
 
             <p>
               Soy desarrollador Full Stack, con formación en UX/UI y experiencia
@@ -37,7 +37,7 @@ function About() {
           viewport={{ once: false }}
         >
           <article>
-            <h2> Mi formación </h2>
+            <h2> Education </h2>
 
             <p>
               UX/UI Design → Desarrollo Web → Full Stack Engineer → JavaScript

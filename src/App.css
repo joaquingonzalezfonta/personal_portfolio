@@ -1,4 +1,4 @@
 .portfolio {
-  background: black;
-  color: white;
+  background: var(--color-background);
+  color: var(--color-accent);
 }

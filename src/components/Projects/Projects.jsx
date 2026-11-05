@@ -1,7 +1,5 @@
 import "./Projects.css";
 import { motion } from "framer-motion";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLock } from "@fortawesome/free-solid-svg-icons";
 
 function Projects() {
   return (
@@ -13,7 +11,7 @@ function Projects() {
           transition={{ duration: 1.2 }}
           viewport={{ once: false }}
         >
-          <h2>Mis proyectos</h2>
+          <h2> Projects </h2>
         </motion.div>
 
         <motion.div
@@ -24,16 +22,14 @@ function Projects() {
         >
           <div className="projects-container">
             <article className="project-card">
-              <div className="project-image-container">
-                <img
-                  src="/img/proyecto-homebook.png"
-                  alt="Proyecto Muebles"
-                  className="project-image"
-                />
-              </div>
+              <a className="project-number" href="https://jgf-muebles.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Homebook">
+                <span className="project-number-value">1</span>
+                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <span className="project-preview-label">Ver proyecto </span>
+              </a>
 
               <div className="project-content">
-                <h3> Muebles</h3>
+                <h3> Homebook </h3>
 
                 <p>
                   Ecommerce desarrollado con React y Firebase. Incluye catálogo
@@ -67,13 +63,11 @@ function Projects() {
             </article>
 
             <article className="project-card">
-              <div className="project-image-container">
-                <img
-                  src="/img/proyecto-importcar.png"
-                  alt="Proyecto Importcar"
-                  className="project-image"
-                />
-              </div>
+              <a className="project-number" href="https://joaquin-imporcar.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Importcar">
+                <span className="project-number-value">2</span>
+                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <span className="project-preview-label">Ver proyecto </span>
+              </a>
 
               <div className="project-content">
                 <h3> Importcar</h3>
@@ -104,13 +98,11 @@ function Projects() {
             </article>
 
             <article className="project-card">
-              <div className="project-image-container">
-                <img
-                  src="/img/retailproject.png"
-                  alt="Proyecto Retail Project"
-                  className="project-image"
-                />
-              </div>
+              <a className="project-number" href="https://github.com/joaquingonzalezfonta/capstone_project" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Retail Analytics">
+                <span className="project-number-value">3</span>
+                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <span className="project-preview-label">Ver proyecto </span>
+              </a>
 
               <div className="project-content">
                 <h3>Retail Analytics</h3>
@@ -133,16 +125,34 @@ function Projects() {
             </article>
 
             <article className="project-card">
-              <div className="project-blocked">
-                <FontAwesomeIcon icon={faLock} className="icon-block"/>
+              <div className="project-number" tabIndex={0} aria-label="Embragues Gonzalez: en desarrollo">
+                <span className="project-number-value">4</span>
+                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <span className="project-preview-label">En desarrollo</span>
               </div>
 
               <div className="project-content">
                 <h3> Embragues Gonzalez </h3>
 
-                <p>Proyecto para empresa familiar en desarrollo...</p>
+                <p>Proyecto para empresa automotriz en desarrollo...</p>
 
                 <p className="project-tech"> React · CSS · Git </p>
+              </div>
+            </article>
+
+            <article className="project-card">
+              <div className="project-number" tabIndex={0} aria-label="Ann Estudio Creativo: en desarrollo">
+                <span className="project-number-value">5</span>
+                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <span className="project-preview-label">En desarrollo</span>
+              </div>
+
+              <div className="project-content">
+                <h3> Ann Estudio Creativo </h3>
+
+                <p>Proyecto para estudio cretivo en desarrollo...</p>
+
+                <p className="project-tech"> Java Script · CSS · Git </p>
               </div>
             </article>
           </div>

@@ -18,11 +18,11 @@ function Navbar() {
 
         <ul className={`navbar-links ${menuHamburguesa ? 'open' : ''}`}>
           <li className="navbar-lista">
-            <a className="links-navbar" href="#inicio">Inicio</a>
+            <a className="links-navbar" href="#inicio">Home</a>
           </li>
 
           <li className="navbar-lista">
-            <a className="links-navbar" href="#about">Sobre mí</a>
+            <a className="links-navbar" href="#about">About me</a>
           </li>
 
           <li className="navbar-lista">
@@ -30,11 +30,11 @@ function Navbar() {
           </li>
 
           <li className="navbar-lista">
-            <a className="links-navbar" href="#projects">Proyectos</a>
+            <a className="links-navbar" href="#projects">Projects</a>
           </li>
 
           <li className="navbar-lista">
-            <a className="links-navbar" href="#contact">Contacto</a>
+            <a className="links-navbar" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>

@@ -16,7 +16,7 @@ function Contact() {
           viewport={{ once: false }}
         >
           <div className="contact-content">
-            <h2> Contacto</h2>
+            <h2> Contact </h2>
             <p className="contact-description">
               Si querés desarrollar un sitio web, e-commerce o una solución
               digital para tu proyecto, hablemos.

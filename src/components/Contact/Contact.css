@@ -1,6 +1,6 @@
 .contact {
   padding: 80px 10%;
-  background-color: black;
+  background-color: var(--color-background);
 }
 
 .contact-container {
@@ -44,11 +44,11 @@
   gap: 15px;
 
   padding: 20px;
-  border: 1px solid #c6b4a0;
+  border: 1px solid var(--color-accent);
   border-radius: 16px;
 
-  background: black;
-  color: #fefdfd;
+  background: var(--color-background);
+  color: var(--color-accent);
 
   text-decoration: none;
   font-weight: 600;
@@ -61,6 +61,8 @@
 }
 
 .contact-button:hover {
+  background: var(--color-accent);
+  color: var(--color-background);
   transform: translateY(-3px);
 }
 
@@ -77,7 +79,7 @@
 
   padding: 20px;
 
-  border: 1px solid #c6b4a0;
+  border: 1px solid var(--color-accent);
   border-radius: 16px;
 
   text-decoration: none;
@@ -87,8 +89,10 @@
 }
 
 .contact-link:hover {
+  background: var(--color-tint);
+  color: var(--color-accent);
   transform: translateX(6px);
-  border-color: #c6b4a0;
+  border-color: var(--color-accent);
 }
 
 .contact-icon {
@@ -101,7 +105,7 @@
 
   border-radius: 12px;
 
-  background: rgba(0, 0, 0, 0.07);
+  background: var(--color-tint);
 
   font-weight: 700;
 }
