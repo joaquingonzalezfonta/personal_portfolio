@@ -4,7 +4,7 @@
   align-items: center;
   padding: 80px 10%;
   background: var(--color-background);
-  color: var(--color-accent);
+  color: var(--color-text);
 }
 
 .hero-content {
@@ -22,7 +22,7 @@
   font-size: 140px;
   line-height: 1;
   color: var(--color-accent);
-  text-shadow: 4px 8px 12px rgb(30 58 95 / 18%);
+  text-shadow: 2px 4px 8px rgb(221 211 195 / 18%);
 }
 
 .hero h2 {
