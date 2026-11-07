@@ -14,8 +14,6 @@ function Hero() {
             transition={{ duration: 1.2 }}
             viewport={{ once: false }}
           >
-            <p className="hero-intro">Hola, soy</p>
-
             <h1>Joaquín</h1>
             <h1>Gonzalez</h1>
           </motion.div>

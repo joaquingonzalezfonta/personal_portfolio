@@ -3,28 +3,12 @@
   top: 0;
   z-index: 1000;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 10px 10%;
+  min-height: 64px;
+  padding: 16px 10%;
   background-color: var(--color-background, #0d0d0d);
   color: var(--color-text, #f2f0ed);
-}
-
-.navbar .link-logo {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 4px;
-  border: 1px solid transparent;
-  border-radius: 50%;
-  transition: border-color 0.3s ease;
-}
-
-.logo-img {
-  display: block;
-  width: auto;
-  border-radius: 50%;
-  height: 20px;
 }
 
 .menu-button {
@@ -38,8 +22,10 @@
 
 .navbar-links {
   display: flex;
-  justify-content: space-around;
-  gap: 30px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
   list-style: none;
 }
 
@@ -58,7 +44,8 @@
 
 @media (max-width: 768px) {
   .navbar {
-    padding: 20px 5%;
+    justify-content: flex-end;
+    padding: 12px 5%;
   }
 
   .menu-button {

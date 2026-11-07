@@ -8,21 +8,21 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <a href="#inicio" className="link-logo">
-          <img className="logo-img" src="/img/logo.png" alt="logo" />
-        </a>
-
-        <button className="menu-button" onClick={() => setMenuHamburguesa(!menuHamburguesa)}>
+        <button type="button" aria-label="Abrir o cerrar navegación" aria-expanded={menuHamburguesa} aria-controls="navbar-links" className="menu-button" onClick={() => setMenuHamburguesa(!menuHamburguesa)}>
             ☰
         </button>
 
-        <ul className={`navbar-links ${menuHamburguesa ? 'open' : ''}`}>
+        <ul id="navbar-links" onClick={() => setMenuHamburguesa(false)} className={`navbar-links ${menuHamburguesa ? 'open' : ''}`}>
           <li className="navbar-lista">
             <a className="links-navbar" href="#inicio">Home</a>
           </li>
 
           <li className="navbar-lista">
-            <a className="links-navbar" href="#about">About me</a>
+            <a className="links-navbar" href="#about">About</a>
+          </li>
+
+          <li className="navbar-lista">
+            <a className="links-navbar" href="#services">Services</a>
           </li>
 
           <li className="navbar-lista">

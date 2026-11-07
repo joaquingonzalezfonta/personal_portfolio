@@ -36,13 +36,17 @@ function About() {
           transition={{ duration: 1.2 }}
           viewport={{ once: false }}
         >
-          <article>
-            <h2> Education </h2>
+          <article className="fontqode-about">
+            <div className="fontqode-content">
+              <h2> FONTQODE </h2>
+              <p>
+                FONT QODE representa mi enfoque de trabajo: transformar ideas y necesidades en soluciones digitales que combinen diseño, funcionalidad y tecnología para acompañar el crecimiento de cada proyecto.
+              </p>
 
-            <p>
-              UX/UI Design → Desarrollo Web → Full Stack Engineer → JavaScript
-              Avanzado → React Avanzado → Python → SQL
-            </p>
+            </div>
+            <div className="fontqode-image-container">
+              <img className="fontqode-logo" src="/img/logo.png" alt="Logo de Fontqode" />
+            </div>
           </article>
         </motion.div>
       </section>

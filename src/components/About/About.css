@@ -17,3 +17,43 @@
 .article-about {
   margin-bottom: 80px;
 }
+
+.fontqode-about {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 60px;
+}
+
+.fontqode-content {
+  text-align: left;
+}
+
+.fontqode-content p {
+  margin-bottom: 0;
+}
+
+.fontqode-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fontqode-logo {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .fontqode-about {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .fontqode-logo {
+    max-width: 200px;
+  }
+}
