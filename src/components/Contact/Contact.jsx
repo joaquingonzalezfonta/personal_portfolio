@@ -13,7 +13,7 @@ function Contact() {
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <div className="contact-content">
             <h2> Contact </h2>
@@ -37,7 +37,7 @@ function Contact() {
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <div className="contact-links">
             <a href="mailto:fontqode@gmail.com" className="contact-link">

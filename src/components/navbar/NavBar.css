@@ -33,13 +33,13 @@
   text-decoration: none;
   color: var(--color-text, #f2f0ed);
   transition: 0.5s;
-}
 
-.navbar .links-navbar:hover,
-.navbar .links-navbar:focus-visible {
-  color: var(--color-accent, #ddd3c3);
-  text-decoration: underline;
-  text-underline-offset: 5px;
+  &:hover {
+    color: var(--color-accent, #ddd3c3);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+  
 }
 
 @media (max-width: 768px) {

@@ -30,7 +30,7 @@
 }
 
 .fontqode-content p {
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .fontqode-image-container {
@@ -42,7 +42,6 @@
 .fontqode-logo {
   display: block;
   width: 100%;
-  max-width: 280px;
   height: auto;
   object-fit: contain;
 }

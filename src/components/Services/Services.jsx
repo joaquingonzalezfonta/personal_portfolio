@@ -76,7 +76,7 @@ function Services() {
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <h2>Services</h2>
         </motion.div>
@@ -90,7 +90,7 @@ function Services() {
                 initial={{ opacity: 0, y: 40 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, delay: index * 0.08, ease: "easeOut" }}
-                viewport={{ once: false, amount: 0.2 }}
+                viewport={{ once: true, amount: 0.2 }}
                 className={`service-item ${isOpen ? "is-open" : ""}`}
                 key={service.id}
                 onPointerMove={(event) => {

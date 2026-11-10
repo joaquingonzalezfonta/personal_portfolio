@@ -12,7 +12,7 @@ function Hero() {
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
           >
             <h1>Joaquín</h1>
             <h1>Gonzalez</h1>
@@ -22,13 +22,12 @@ function Hero() {
             initial={{ opacity: 0, x: 60 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
           >
             <h2>Desarrollador Web</h2>
 
             <p className="hero-description">
-              Impulso tu negocio con soluciones digitales modernas y funcionales.
-              Desarrollo herramientas adaptadas a tus necesidades y objetivos.
+              Impulso tu negocio con herramientas digitales modernas y funcionales, adaptadas a tus necesidades y objetivos.
             </p>
           </motion.div>
 
@@ -36,7 +35,7 @@ function Hero() {
             initial={{ opacity: 0, x: -60 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 1.2 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
           >
             <div className="hero-buttons">
               <a className="hero-link" href="#projects">

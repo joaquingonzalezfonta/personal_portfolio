@@ -9,7 +9,7 @@ function Projects() {
           initial={{ opacity: 0, x: -60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <h2> Projects </h2>
         </motion.div>
@@ -18,13 +18,13 @@ function Projects() {
           initial={{ opacity: 0, x: 60 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.2 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <div className="projects-container">
             <article className="project-card">
               <a className="project-number" href="https://jgf-muebles.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Homebook">
                 <span className="project-number-value">1</span>
-                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <img className="project-preview-image" src="/img/proyecto-homebook.png" alt="" />
                 <span className="project-preview-label">Ver proyecto </span>
               </a>
 
@@ -65,7 +65,7 @@ function Projects() {
             <article className="project-card">
               <a className="project-number" href="https://joaquin-imporcar.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Importcar">
                 <span className="project-number-value">2</span>
-                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <img className="project-preview-image" src="/img/proyecto-importcar.png" alt="" />
                 <span className="project-preview-label">Ver proyecto </span>
               </a>
 
@@ -100,7 +100,7 @@ function Projects() {
             <article className="project-card">
               <a className="project-number" href="https://github.com/joaquingonzalezfonta/capstone_project" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Retail Analytics">
                 <span className="project-number-value">3</span>
-                <img className="project-preview-image" src="/img/logo.png" alt="" />
+                <img className="project-preview-image" src="/img/retailproject.png" alt="" />
                 <span className="project-preview-label">Ver proyecto </span>
               </a>
 
@@ -127,8 +127,8 @@ function Projects() {
             <article className="project-card">
               <div className="project-number" tabIndex={0} aria-label="Embragues Gonzalez: en desarrollo">
                 <span className="project-number-value">4</span>
-                <img className="project-preview-image" src="/img/logo.png" alt="" />
-                <span className="project-preview-label">En desarrollo</span>
+                <img className="project-preview-image" src="/img/proyecto-embragues.png" alt="" />
+                <span className="project-preview-label">En desarrollo..</span>
               </div>
 
               <div className="project-content">
@@ -143,8 +143,8 @@ function Projects() {
             <article className="project-card">
               <div className="project-number" tabIndex={0} aria-label="Ann Estudio Creativo: en desarrollo">
                 <span className="project-number-value">5</span>
-                <img className="project-preview-image" src="/img/logo.png" alt="" />
-                <span className="project-preview-label">En desarrollo</span>
+                <img className="project-preview-image" src="/img/proyecto-ann.png" alt="" />
+                <span className="project-preview-label">En desarrollo..</span>
               </div>
 
               <div className="project-content">
@@ -153,6 +153,22 @@ function Projects() {
                 <p>Proyecto para estudio cretivo en desarrollo...</p>
 
                 <p className="project-tech"> Java Script · CSS · Git </p>
+              </div>
+            </article>
+
+            <article className="project-card">
+              <div className="project-number" tabIndex={0} aria-label="Ann Estudio Creativo: en desarrollo">
+                <span className="project-number-value">6</span>
+                <img className="project-preview-image" src="/img/logo-negro.jpg" alt="" />
+                <span className="project-preview-label">En desarrollo..</span>
+              </div>
+
+              <div className="project-content">
+                <h3> Nahü Estudio Creativo </h3>
+
+                <p>Proyecto para estudio cretivo en desarrollo...</p>
+
+                <p className="project-tech"> React · CSS · Motion </p>
               </div>
             </article>
           </div>
