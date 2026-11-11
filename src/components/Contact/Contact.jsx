@@ -23,7 +23,7 @@ function Contact() {
             </p>
 
             <a
-  href="https://wa.me/5491123970234?text=Hola%20Joaquin,%20vi%20tu%20portfolio%20y%20me%20gustaría%20consultarte%20por%20un%20proyecto."
+  href="https://wa.me/5491178224026?text=Hola%20Joaquin,%20vi%20tu%20portfolio%20y%20me%20gustaría%20consultarte%20por%20un%20proyecto."
   target="_blank"
   rel="noopener noreferrer"
   className="contact-button"

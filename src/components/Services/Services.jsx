@@ -147,7 +147,7 @@ function Services() {
                         </p>
 
                         <a
-                          href={`https://wa.me/5491123970234?text=${encodeURIComponent(service.whatsappMessage)}`}
+                          href={`https://wa.me/5491178224026?text=${encodeURIComponent(service.whatsappMessage)}`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="service-link"
