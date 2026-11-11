@@ -175,7 +175,7 @@
 
   .projects-links {
     min-width: 110px;
-    padding: 12px 16px;
+    padding: 10px 14px;
     font-size: 0.85rem;
 
     display: inline-flex;
@@ -213,7 +213,7 @@
 
   .projects-links {
     min-width: 100px;
-    padding: 10px 14px;
+    padding: 8px 12px;
     font-size: 0.8rem;
   }
 

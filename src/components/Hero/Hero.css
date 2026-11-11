@@ -99,6 +99,15 @@
     display: inline-block;
     flex-shrink: 0;
   }
+
+  .hero .hero-buttons a {
+    width: 140px;
+    min-height: 44px;
+    padding: 10px 14px;
+    gap: 8px;
+    border-radius: 10px;
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -107,7 +116,7 @@
   }
 
   .hero h1 {
-    font-size: 60px;
+    font-size: clamp(2.5rem, 16vw, 3.75rem);
     line-height: 1.05;
   }
 
@@ -124,14 +133,15 @@
   }
 
   .hero .hero-buttons {
-    gap: 12px;
+    gap: 10px;
   }
 
   .hero .hero-buttons a {
-    min-height: 50px;
-    padding: 5px 10px;
+    width: 128px;
+    min-height: 44px;
+    padding: 8px 12px;
     gap: 8px;
-    border-radius: 12px;
+    border-radius: 10px;
     font-size: 12px;
   }
 
