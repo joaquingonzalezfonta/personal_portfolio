@@ -100,7 +100,7 @@ function Projects() {
             <article className="project-card">
               <a className="project-number" href="https://github.com/joaquingonzalezfonta/capstone_project" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Retail Analytics">
                 <span className="project-number-value">3</span>
-                <img className="project-preview-image" src="/img/retailproject.png" alt="" />
+                <img className="background-black project-preview-image" src="/img/retailproject.png" alt="" />
                 <span className="project-preview-label">Ver proyecto </span>
               </a>
 
@@ -125,46 +125,74 @@ function Projects() {
             </article>
 
             <article className="project-card">
-              <div className="project-number" tabIndex={0} aria-label="Embragues Gonzalez: en desarrollo">
+              <a className="project-number" href="https://embragues-gonzalez.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Embragues Gonzalez">
                 <span className="project-number-value">4</span>
                 <img className="project-preview-image" src="/img/proyecto-embragues.png" alt="" />
-                <span className="project-preview-label">En desarrollo..</span>
-              </div>
+                <span className="project-preview-label">En desarrollo, ver vista previa</span>
+              </a>
 
               <div className="project-content">
                 <h3> Embragues Gonzalez </h3>
 
-                <p>Proyecto para empresa automotriz en desarrollo...</p>
+                <p>Sitio web desarrollado para una empresa especializada en embragues. Incluye catálogo de repuestos, presentación de servicios y contacto directo por WhatsApp.</p>
 
                 <p className="project-tech"> React · CSS · Git </p>
+                <div className="hero-buttons">
+                  <a
+                    href="https://embragues-gonzalez.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-links"
+                  >
+                    Vista previa
+                  </a>
+
+                  <a href="https://github.com/font-qode/embragues-gonzalez" className="projects-links">
+                    GitHub
+                  </a>
+                </div>
               </div>
             </article>
 
             <article className="project-card">
-              <div className="project-number" tabIndex={0} aria-label="Ann Estudio Creativo: en desarrollo">
+              <a className="project-number" href="https://annestudio.netlify.app/" target="_blank" rel="noopener noreferrer" aria-label="Ver proyecto Ann Estudio creativo">
                 <span className="project-number-value">5</span>
                 <img className="project-preview-image" src="/img/proyecto-ann.png" alt="" />
-                <span className="project-preview-label">En desarrollo..</span>
-              </div>
+                <span className="project-preview-label">En desarrollo, ver vista previa</span>
+              </a>
 
               <div className="project-content">
                 <h3> Ann Estudio Creativo </h3>
 
-                <p>Proyecto para estudio cretivo en desarrollo...</p>
+                <p>Sitio web para un estudio creativo, enfocado en presentar sus servicios, mostrar sus trabajos y facilitar el contacto con potenciales clientes.</p>
 
                 <p className="project-tech"> Java Script · CSS · Git </p>
+                <div className="hero-buttons">
+                  <a
+                    href="https://annestudio.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="projects-links"
+                  >
+                    Vista previa
+                  </a>
+
+                  <a href="https://github.com/font-qode/ann-estudio-creativo" className="projects-links">
+                    GitHub
+                  </a>
+                </div>
               </div>
             </article>
 
             <article className="project-card">
               <div className="project-number" tabIndex={0} aria-label="Ann Estudio Creativo: en desarrollo">
                 <span className="project-number-value">6</span>
-                <img className="project-preview-image" src="/img/logo-negro.jpg" alt="" />
+                <img className="project-preview-image" src="/img/proyecto-nahu.png" alt="" />
                 <span className="project-preview-label">En desarrollo..</span>
               </div>
 
               <div className="project-content">
-                <h3> Nahü Estudio Creativo </h3>
+                <h3> Nahü Studio Creativo </h3>
 
                 <p>Proyecto para estudio cretivo en desarrollo...</p>
 
